@@ -2,47 +2,61 @@
 <head>
 <title>Untitled Document</title>
 <style>
-	#container {width: 693.5px;
-	            text-align: justify;
-				background-color: #fff;
-				margin: auto;}
+#container {width: 704px;
+	    text-align: justify;
+	    background-color: #fff;
+	    margin:auto;}
 				
-	body {background-color: #cccccc;
-	      font: 11px Verdana;}
+body      {background-color: #cccccc;
+	  font: 11px Verdana;}
 		  
-    p:first-letter {color: blue;
-	                font-weight: bold;
-					font-size: 38px;
-					font-family: Times New Roman;} 	
+p:first-letter {color: blue;
+	        font-weight: bold;
+		font-size: 38px;
+		font-family: Times New Roman;} 	
 					
-    #content {width:693.5px;
-	          height:590px;
-			  float:left;
-			  background-color:#FFF;}
-	#text {padding-left:10px;
-		   padding-right:10px;}		  
-	    
-	#header {height:50px;
-	         background-color:#b0b0b0;}
+#content   {width:688px;
+	    height:600px;
+	    float:left;
+	    background-color: #ffffff;
+	    padding-left:8px;
+	    padding-right:8px;}
+				
+				 
+#nav       {display:inline;
+	    width: 704;
+	    height:25px;
+	    float: left;}  
+				
+#header    {height:50px;
+	    background-color:#b0b0b0;}
 	
-	#header h1{padding-left:40px;padding-top:10px;}
+#header h1{padding-left:39px;
+	           padding-top:10px;}
 			 
-    ul    {margin:0;
-	       padding:0px;
-		   width:720px;
-		   list-style: none;
-		   text-transform:uppercase;}		
-    li {display: inline; float:left;}
-	a {padding:0 10px 0 10px;
+ul        {margin:0;
+	   padding:0px;
+	   width:720px;
+	   list-style: none;
+	   text-transform:uppercase;}	
+
+li        {display:inline;
+	   float: left;}
+	
+a         {padding:0 10px 0 10px;
 	   line-height:25px;
 	   text-decoration:none;
 	   color:#fff;
 	   float:left;
 	   display:block;
 	   background-image:url(images/nb.gif);
-	   background-repeat:repeat-x;}
-	a:hover{color:#333;}
-	a:visited{color:#fff;text-decoration:none;}
+	   background-repeat:repeat-x;
+	   min-width: 47px;}
+a:hover{color:#333;}
+a:visited{color:#fff;text-decoration:none;}
+a:active {color: black;
+	  font-weight: bold;
+	  text-decoration:underline;}
 </style>
 </head>
 
@@ -51,30 +65,28 @@
    <div id="header">
      <h1>Все о Минске</h1>
    </div>
-      
-	     <ul>
-		     <li><a href="#">Площади</a></li>
-			 <li><a href="#">Парки</a></li>
-			 <li><a href="#">Фонтаны</a></li>
-			 <li><a href="#">Памятники</a></li>
-			 <li><a href="#">Скверы</a></li>
-			 <li><a href="#">Водоемы</a></li>
-			 <li><a href="#">Проспекты</a></li>
-			 <li><a href="#">Бульвары</a></li>
-			 <li><a href="#">Церкви</a></li>
-		 </ul>
-	  
-	     <div id="content">
-		   <div id="text">
-            <h3>Фонтаны Минска</h3>
-		   </div> 
-		  <div style="position:relative; top:10px; left:10px">
-		   <img src="images/font1.jpg">
-		  </div>	
-		  <div style="position:relative; top:-90px; left:285px">
-		   <img src="images/font2.jpg">
-		  </div>
-         </div>
+   <div id="nav">
+	 <ul>
+	  <li><a href="#">Площади</a></li>
+	  <li><a href="#">Парки</a></li>
+	  <li><a href="#">Фонтаны</a></li>
+	  <li><a href="#">Памятники</a></li>
+	  <li><a href="#">Скверы</a></li>
+	  <li><a href="#">Водоемы</a></li>
+	  <li><a href="#">Проспекты</a></li>
+	  <li><a href="#">Бульвары</a></li>
+	  <li><a href="#">Церкви</a></li>
+	 </ul>
+   </div>
+   <div id="content">
+      <h3>Фонтаны Минска</h3>
+    <div style="position:relative; top:10px; left:10px">
+	 <img src="images/font1.jpg">
+    </div>	
+    <div style="position:relative; top:-90px; left:285px">
+	 <img src="images/font2.jpg">
+	</div>
+   </div>
  </div>		 
 </body>
 </html>
